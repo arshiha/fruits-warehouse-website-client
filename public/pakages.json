@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "price": "200",
+    "description": "Our warehouse fruits is fresh and healthy.The Apple fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://static.punjabkesari.in/multimedia/2016_7image_09_38_1159356011-ll.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Arafat Hossain"
+  },
+  {
+    "id": 2,
+    "name": "Orange",
+    "price": "350",
+    "description": "Our warehouse fruits is fresh and healthy.The Orange fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://www.jesmondfruitbarn.com.au/wp-content/uploads/2016/10/Jesmond-Fruit-Barn-Oranges.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Mehedi Hasan"
+  },
+  {
+    "id": 3,
+    "name": "Nashpati",
+    "price": "400",
+    "description": "Our warehouse fruits is fresh and healthy.The Nashpati fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://cdn4.mydukaan.io/app/image/700x700/?url=https://projecteagle.s3.ap-south-1.amazonaws.com/images/4808b5d4-1661-4f4f-a13e-1121569f9b53.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Rawnok Jahan"
+  },
+  {
+    "id": 4,
+    "name": "Strawberry",
+    "price": "250",
+    "description": "Our warehouse fruits is fresh and healthy.The Strawberry fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://wallpapercave.com/wp/wp3408133.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Israt Jahan"
+  },
+  {
+    "id": 5,
+    "name": "Angur",
+    "price": "400",
+    "description": "Our warehouse fruits is fresh and healthy.The Angur fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://pbs.twimg.com/media/CikZ8bqUgAEcBw-.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Hridoy Hasan"
+  },
+  {
+    "id": 6,
+    "name": "Cherry",
+    "price": "500",
+    "description": "Our warehouse fruits is fresh and healthy.The Cherry fruit warehouse is a great place to visit if you like homemade pies & jams.",
+    "img": "https://static.wixstatic.com/media/eb7abd_3352c9e83ca34196b73260e55c6f2db3~mv2.jpg/v1/fill/w_640,h_540,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/eb7abd_3352c9e83ca34196b73260e55c6f2db3~mv2.jpg",
+    "quantity": "1 kg",
+    "supplierName": "Md. Rabby"
+  }
+]
