@@ -18,7 +18,7 @@ const Dry = ({ dry }) => {
           </p>
           <h6>SuplierName: Rufaid Hasan Labib{suplierName}</h6>
           <h6>Quantity: 1Kg{quantity}</h6>
-          <p>Price: 300{price}</p>
+          <p>Price: 350{price}</p>
           <a href="#" class="btn btn-success">
             Book
           </a>

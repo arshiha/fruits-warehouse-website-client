@@ -16,7 +16,7 @@ const Banner = () => {
         <img className="d-block w-100" src={banner1} alt="First slide" />
         <Carousel.Caption>
           <h3>Fruits Warehouse</h3>
-          <p>Fresh Fruits Warehouse.</p>
+          <p>Fresh Fruits Warehouse.fruits good for health.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,7 +24,7 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3>Fruits Warehouse</h3>
-          <p>Fresh Fruits Warehouse.</p>
+          <p>Fresh Fruits Warehouse.fruits good for health.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,7 +32,7 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3>Fruits Warehouse</h3>
-          <p>Fresh Fruits Warehouse.</p>
+          <p>Fresh Fruits Warehouse.fruits good for health.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
