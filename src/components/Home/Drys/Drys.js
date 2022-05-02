@@ -20,7 +20,7 @@ const drys = [
 
 const Drys = () => {
   return (
-    <div className="container">
+    <div id="dryFruits" className="container">
       <h2 className="title-style">Our Dry Fruts</h2>
       <div className="row">
         {drys.map((dry) => (

@@ -8,12 +8,15 @@ const Header = () => {
       <Navbar bg="light" variant="light" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
+            {/* <h4>Fruits Warehouse</h4> */}
             <img src={logo} height="35px" alt="" />
           </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav className="ms-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="home#products">Products</Nav.Link>
+            <Nav.Link href="home#dryFruits">DryFruits</Nav.Link>
+            <Nav.Link href="home#about">About</Nav.Link>
+            <Nav.Link href="home#login">Login</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

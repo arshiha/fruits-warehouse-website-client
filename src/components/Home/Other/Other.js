@@ -19,9 +19,8 @@ const Other = ({ other }) => {
           <h6>SuplierName: Md.Piyas Shekh{suplierName}</h6>
           <h6>Quantity: 1Kg{quantity}</h6>
           <p>Price: 300{price}</p>
-          <a href="#" class="btn btn-success">
-            Book
-          </a>
+
+          <button className="btn btn-success">Update</button>
         </div>
       </div>
     </div>

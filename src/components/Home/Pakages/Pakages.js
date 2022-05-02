@@ -12,7 +12,7 @@ const Pakages = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div id="products" className="container">
       <div className="row">
         <h1 className="title">Our Products</h1>
         <div className="products">
