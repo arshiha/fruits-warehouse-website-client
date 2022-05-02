@@ -1,0 +1,10 @@
+.footer {
+  padding: 1% 10%;
+  background-color: #056676;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: black;
+}
