@@ -1,8 +1,8 @@
 import React from "react";
-import "./Dry.css";
+import "./Other.css";
 
-const Dry = ({ dry }) => {
-  const { name, img, price, suplierName, quantity } = dry;
+const Other = ({ other }) => {
+  const { name, img, price, suplierName, quantity } = other;
   return (
     <div className="g-5 col-sm-12 col-md-6 col-lg-4">
       <div class="card" style={{ width: "18rem" }}>
@@ -16,7 +16,7 @@ const Dry = ({ dry }) => {
             Our warehouses fruits fresh and healty.no unhealty chemical.its good
             for health.
           </p>
-          <h6>SuplierName: Rufaid Hasan Labib{suplierName}</h6>
+          <h6>SuplierName: Md.Piyas Shekh{suplierName}</h6>
           <h6>Quantity: 1Kg{quantity}</h6>
           <p>Price: 300{price}</p>
           <a href="#" class="btn btn-success">
@@ -28,4 +28,4 @@ const Dry = ({ dry }) => {
   );
 };
 
-export default Dry;
+export default Other;

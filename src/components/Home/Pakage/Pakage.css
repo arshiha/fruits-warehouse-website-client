@@ -1,5 +1,5 @@
 .img-size {
-  width: 300px;
+  width: 340px;
   height: 250px;
 }
 .name {
@@ -8,6 +8,6 @@
 }
 .pakage-products {
   border: 2px solid wheat;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
