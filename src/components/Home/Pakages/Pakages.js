@@ -12,12 +12,14 @@ const Pakages = () => {
   }, []);
 
   return (
-    <div>
-      <h1 className="title">Our Products</h1>
-      <div className="products">
-        {pakages.map((pakage) => (
-          <Pakage key={pakage.id} pakage={pakage}></Pakage>
-        ))}
+    <div className="container">
+      <div className="row">
+        <h1 className="title">Our Products</h1>
+        <div className="products">
+          {pakages.map((pakage) => (
+            <Pakage key={pakage.id} pakage={pakage}></Pakage>
+          ))}
+        </div>
       </div>
     </div>
   );
