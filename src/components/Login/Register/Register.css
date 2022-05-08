@@ -1,0 +1,13 @@
+.register {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.register input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  font-size: 19px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
