@@ -6,7 +6,7 @@ const Pakages = () => {
   const [pakages, setPakages] = useState([]);
 
   useEffect(() => {
-    fetch("pakages.json")
+    fetch("http://localhost:5000/fruits")
       .then((res) => res.json())
       .then((data) => setPakages(data));
   }, []);
@@ -17,7 +17,7 @@ const Pakages = () => {
         <h1 className="title">Our Products</h1>
         <div className="products">
           {pakages.map((pakage) => (
-            <Pakage key={pakage.id} pakage={pakage}></Pakage>
+            <Pakage key={pakage._id} pakage={pakage}></Pakage>
           ))}
         </div>
       </div>

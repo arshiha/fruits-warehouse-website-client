@@ -1,14 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Pakage.css";
 
 const Pakage = ({ pakage }) => {
-  const { id, name, img, price, description, quantity, supplierName } = pakage;
+  const { _id, name, img, price, description, quantity, supplierName } = pakage;
 
-  const navigate = useNavigate();
-  const navigateToInventoryManagement = (id) => {
-    navigate(`/pakage/${id}`);
-  };
+  // const navigate = useNavigate();
+  // const navigateToInventoryManagement = (id) => {
+  //   navigate(`/pakage/${id}`);
+  // };
 
   return (
     <div className="pakage-products">
@@ -18,12 +18,9 @@ const Pakage = ({ pakage }) => {
       <h5>SuplierName: {supplierName}</h5>
       <h6>Quantity: {quantity}</h6>
       <p>Price: {price}</p>
-      <button
-        onClick={() => navigateToInventoryManagement(id)}
-        className="btn btn-success"
-      >
-        Update
-      </button>
+      <Link to={`/pakage/${_id}`}>
+        <button className="btn btn-success">Update</button>
+      </Link>
     </div>
   );
 };
