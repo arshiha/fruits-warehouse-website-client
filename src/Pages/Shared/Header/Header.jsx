@@ -30,7 +30,7 @@ const Header = () => {
               alt=""
             />
             <i className="fs-3 fw-bold ">
-              <h2 className="color">Fruits Warehouse</h2>
+              <h2 className="color">Fruits Warehouse website</h2>
             </i>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
