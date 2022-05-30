@@ -1,6 +1,6 @@
 .header-img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -20,7 +20,7 @@ a {
   color: rgb(194, 193, 193);
 }
 .color {
-  color: aquamarine;
+  color: rgb(127, 255, 161);
 }
 .username {
   margin-right: 10px;
