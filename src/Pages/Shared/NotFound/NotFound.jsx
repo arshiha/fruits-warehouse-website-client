@@ -3,9 +3,9 @@ import PageNotFound from "../PageNotFound/PageNotFound.jsx";
 import "./NotFound.css";
 const NotFound = () => {
   return (
-    <div className="page-error mt-2">
+    <div className="page-error mt-5">
       <h3 className="text-center text">
-        Oops! Something went wrong.Please try again...
+        Oops! Something went wrong.Please try again...please try again.....
       </h3>
       <PageNotFound></PageNotFound>
     </div>
